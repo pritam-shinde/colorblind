@@ -1,0 +1,47 @@
+
+li.nav-item.navmenuItem {
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 2px solid red;
+ }
+
+ /* Header.module.css */
+
+/* Styles for the logo container */
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styles for the logo text */
+  .logo-container a:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  /* Styles for the navbar items on medium and large screens */
+  @media (min-width: 768px) {
+    .navbar-collapse {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .collapse.navbar-collapse {
+      flex-basis: 80%;
+    }
+  }
+  
+  /* Styles for the hamburger menu on small screens */
+  @media (max-width: 767px) {
+    .navbar-collapse {
+      display: none;
+    }
+  
+    .navbar-collapse.show {
+      display: block;
+    }
+  }
+  
+  /* Box shadow for the header/navbar */
+.header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

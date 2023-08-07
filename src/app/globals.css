@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* @font-face {
+  font-family: FontRegular;
+  src: url(./Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: FontBold;
+  src: url(./Poppins-Bold.ttf);
+} */
+
+:root {
+  --Heading-Font: FontBold;
+  --Paragraph-Font: FontRegular;
+  --Black: #000000;
+  --White: #FFFFFF;
+  --Blue: #1E65AA;
+  --Text-color:#134072;
+  --Dark-gray: #2F2F2F;
+  --light-gray: #EFEAEA;
+  --LineHeight: 1.5rem;
+  --h1: 3rem;
+  --h2: 2.1rem;
+  --h2-mob: 2.75rem;
+  --h3: 1.8rem;
+  --h4: 1.6rem;
+  --h5: 1.1rem !important;
+  --h6: 1rem;
+  --para-font-family: 'Roboto', sans-serif;
+  --heading-font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600 !important;
+  font-family: var(--heading-font-family) !important;
+}
+
+h1 {
+  font-size: var(--h1) !important;
+}
+
+h2 {
+  font-size: var(--h2) !important;
+}
+
+h3 {
+  font-size: var(--h3) !important;
+}
+
+h4 {
+  font-size: var(--h4) !important;
+}
+
+h5 {
+  font-size: var(--h5) !important;
+}
+
+h6 {
+  font-size: var(--h6) !important;
+}
+
+p,
+.para {
+  font-family: var(--para-font-family) !important;
+  font-size: 1rem;
+  margin-bottom: 1rem !important;
+  display: block;
+}
+.nav-link {
+  margin: 0px 2rem !important;
+}
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Text-color{
+  color: var(--Text-color);
+}
+
+.horizontal-line{
+  border: none;
+  border-top: 2px solid var(--Text-color); /* Use your defined blue color */
+  width: 8rem; /* Adjust the width as needed */
+  margin: 20px auto;  
+ background-color: #134072;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust this value as needed */
+}
+
+.Text-white{
+  background-color: #134072;
+  color: var(--White);
+ 
+}

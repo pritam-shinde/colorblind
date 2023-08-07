@@ -1,0 +1,15 @@
+.navmenuItem {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+.radius {
+    border-radius: 2rem !important;
+}
+
+
+li.nav-item.navmenuItem {
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 2px solid red;
+ }
