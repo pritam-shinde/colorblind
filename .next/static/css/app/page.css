@@ -1,0 +1,18 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.page_navmenuItem__w_Fyv {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+.page_radius__CZhmT {
+    border-radius: 2rem !important;
+}
+
+
+li.page_nav-item__xkJne.page_navmenuItem__w_Fyv {
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 2px solid red;
+ }

@@ -20,7 +20,7 @@
   --Dark-gray: #2F2F2F;
   --light-gray: #EFEAEA;
   --LineHeight: 1.5rem;
-  --h1: 3rem;
+  --h1: 2.5rem;
   --h2: 2.1rem;
   --h2-mob: 2.75rem;
   --h3: 1.8rem;
@@ -111,5 +111,23 @@ a{
 .Text-white{
   background-color: #134072;
   color: var(--White);
+  font-size: large;
  
+}
+
+.Text-white:hover{
+  color:#134072;
+  background-color: #fff;
+  border:1px solid  #134072;
+  font-size: large;
+}
+.TabSection{
+  background-color: #134072;
+  border-radius: 1rem;
+  color:white;
+}
+.TabInnerSection {
+  background-color: #092E58;
+  border-radius: 1rem;
+  color:white;
 }
